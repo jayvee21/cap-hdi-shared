@@ -1,0 +1,14 @@
+{
+    "z02-db-hdi": {
+        "object_owner": {
+            "container_roles": [
+                "Z02_EXTERNAL_ACCESS_G#"
+            ]
+        },
+        "application_user": {
+            "container_roles": [
+                "Z02_EXTERNAL_ACCESS"
+            ]
+        }
+    }
+}

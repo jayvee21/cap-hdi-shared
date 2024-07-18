@@ -1,0 +1,13 @@
+{
+    "role": {
+        "name": "Z02_EXTERNAL_ACCESS",
+        "object_privileges": [
+            { 
+                "name":"Z02_ORDERS", 
+                "type":"TABLE", 
+                "privileges":[ "SELECT" ], 
+                "privileges_with_grant_option":[] 
+            }                          
+        ]
+    }
+}

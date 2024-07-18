@@ -1,0 +1,8 @@
+{
+    "Z03_ORDERS": {
+        "target": {
+            "object": "Z02_ORDERS",
+            "schema.configure": "z02-db/schema"
+        }
+    }
+}
