@@ -5,7 +5,10 @@ entity Customers {
     first_name: String;
     last_name: String;
     email: String;
+    orders: Association to many Orders on orders.customer_id = $self.customer_id;
 }
+
+
 
 @cds.persistence.exists: true
 entity Orders {
